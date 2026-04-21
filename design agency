@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRAVILON — Websites that Get You Clients</title>
+  <meta name="description" content="We build high-converting landing pages and websites for local businesses — designed to turn visitors into paying clients." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #F5F4F1; color: #101010; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen bg-[#F5F4F1] text-[#101010] font-sans">
+  <script>
+    const CUSTOM = {
+      heroImage1: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+      heroImage2: "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
+      calendlyLink: "https://calendly.com/YOUR-LINK",
+      portfolioLink: "#portfolio",
+      contactLink: "#contact"
+    };
+  </script>
+
+  <header class="sticky top-2 z-50">
+    <div class="mx-auto max-w-[1450px] px-4 md:px-6">
+      <div class="flex items-center justify-between rounded-[38px] border border-black/10 bg-white/90 px-5 py-3 shadow-[0_8px_20px_rgba(0,0,0,0.04)] backdrop-blur-xl md:px-7">
+        <a href="#top" class="flex items-center gap-3">
+          <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-black text-lg font-black text-white">B</div>
+          <span class="text-[19px] font-black tracking-tight md:text-[21px]">BRAVILON</span>
+        </a>
+        <nav class="hidden items-center gap-7 md:flex">
+          <a href="#services" class="text-sm font-medium text-black/80 hover:text-black">Services</a>
+          <a href="#portfolio" class="text-sm font-medium text-black/80 hover:text-black">Portfolio</a>
+          <a href="#process" class="text-sm font-medium text-black/80 hover:text-black">Process</a>
+          <a href="#testimonials" class="text-sm font-medium text-black/80 hover:text-black">Testimonials</a>
+          <a href="#faq" class="text-sm font-medium text-black/80 hover:text-black">FAQ</a>
+          <a href="#contact" class="text-sm font-medium text-black/80 hover:text-black">Contact</a>
+        </nav>
+        <a href="#contact" class="rounded-full bg-black px-6 py-2.5 text-sm font-semibold text-white">Book a Call</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="mx-auto max-w-[1450px] px-4 pt-1 pb-8 md:px-6 md:pt-1 md:pb-10">
+      <div class="rounded-[60px] bg-[#F5F4F1] px-8 py-12 md:px-12 md:py-14 lg:px-14 lg:py-16 shadow-[0_28px_90px_rgba(0,0,0,0.10)]">
+        <div class="grid grid-cols-1 gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-5 py-2.5 text-sm font-medium">
+              <span class="h-2 w-2 rounded-full bg-[#C9F0D3]"></span>
+              Delivery in 24/48 h
+            </div>
+
+            <h1 class="mt-8 text-[48px] font-black leading-[0.95] tracking-[-0.045em] sm:text-[60px] lg:text-[68px]">
+              Websites that <span class="text-[#B9A2F3] whitespace-nowrap">Get You Clients</span><br>
+              Nothing else.
+            </h1>
+
+            <p class="mt-6 max-w-[560px] text-[17px] leading-8 text-black/70">
+              We build high-converting landing pages and websites for local businesses — designed to turn visitors into paying clients.
+            </p>
+
+            <div class="mt-7 flex flex-wrap gap-3">
+              <span class="rounded-full border border-black/10 bg-white px-5 py-2.5 text-sm">Landing pages</span>
+              <span class="rounded-full border border-black/10 bg-white px-5 py-2.5 text-sm">Business websites</span>
+              <span class="rounded-full border border-black/10 bg-white px-5 py-2.5 text-sm">Conversion-focused</span>
+            </div>
+
+            <div class="mt-10 flex gap-4">
+              <a href="#contact" class="rounded-full bg-black px-7 py-3.5 text-sm font-semibold text-white shadow-[0_10px_25px_rgba(0,0,0,0.15)]">
+                Book a Free Call
+              </a>
+              <a href="#portfolio" class="rounded-full bg-[#B9A2F3] px-7 py-3.5 text-sm font-semibold text-white shadow-[0_10px_25px_rgba(185,162,243,0.35)]">
+                See Website Examples
+              </a>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-2 gap-5">
+            <div class="rounded-[34px] bg-[#C9E7D3] p-5 flex flex-col justify-between min-h-[360px]">
+              <span class="rounded-full bg-white px-4 py-1.5 text-xs w-fit">Premium Homepage Example</span>
+              <img id="heroImage1" alt="Premium homepage example" class="mt-4 rounded-[22px] h-[260px] w-full object-cover">
+              <p class="mt-4 text-sm text-black/60">Clean layout, premium visuals, and stronger calls-to-action.</p>
+            </div>
+
+            <div class="space-y-5">
+              <div class="rounded-[34px] bg-[#B9A2F3] p-5 text-white min-h-[160px]">
+                <div class="flex justify-between items-center">
+                  <span class="text-3xl font-bold">+143%</span>
+                  <span class="bg-black px-3 py-1.5 rounded-full text-xs">Lead Flow</span>
+                </div>
+                <div class="mt-5 flex gap-2">
+                  <div class="h-8 w-3 bg-white/30 rounded-full"></div>
+                  <div class="h-8 w-3 bg-white/30 rounded-full"></div>
+                  <div class="h-8 w-3 bg-white/30 rounded-full"></div>
+                  <div class="h-8 w-3 bg-white/30 rounded-full"></div>
+                  <div class="h-8 w-3 bg-white/30 rounded-full"></div>
+                </div>
+              </div>
+
+              <div class="rounded-[34px] bg-[#F4E4A6] p-5">
+                <span class="rounded-full bg-white px-4 py-1.5 text-xs">Calendly + Form Ready</span>
+                <img id="heroImage2" alt="Calendly and form ready" class="mt-4 rounded-[22px] h-[180px] w-full object-cover">
+              </div>
+            </div>
+
+            <div class="col-span-2 rounded-[34px] bg-[#E8CBF4] p-5">
+              <div class="flex justify-between items-center">
+                <span class="bg-white px-4 py-1.5 rounded-full text-xs">Niche variants</span>
+                <span class="bg-white h-9 w-9 flex items-center justify-center rounded-full">+</span>
+              </div>
+              <div class="mt-4 grid grid-cols-3 gap-3">
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=500&q=80" class="rounded-[14px] h-20 w-full object-cover" alt="Dentist example">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=500&q=80" class="rounded-[14px] h-20 w-full object-cover" alt="Gym example">
+                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=500&q=80" class="rounded-[14px] h-20 w-full object-cover" alt="Beauty example">
+              </div>
+              <p class="text-center text-sm mt-3">Tailored for local niches</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="mx-auto max-w-[1400px] px-3 py-12 md:px-6 md:py-20">
+      <div class="mb-12 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+        <div>
+          <h2 class="max-w-2xl text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">What we build to help you grow</h2>
+          <p class="mt-4 max-w-2xl text-lg leading-8 text-black/70">Whether you need a one-page offer page or a complete business website, we create pages that look premium and move people to act.</p>
+        </div>
+        <div class="rounded-[40px] border border-black/10 bg-white px-6 py-5">
+          <div class="text-sm text-black/55">USP</div>
+          <div class="mt-2 max-w-xs text-2xl font-black leading-tight">We build landing pages and website that convert visitors into buyers</div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div class="bg-[#F4E4A6] rounded-[44px] p-6">
+          <div class="mb-4 overflow-hidden rounded-[26px]"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="Landing Pages" class="h-52 w-full object-cover"></div>
+          <div class="mb-4 inline-flex rounded-full bg-white/85 px-4 py-2 text-sm font-medium">Lead Gen</div>
+          <h3 class="max-w-sm text-3xl font-black leading-tight tracking-[-0.03em]">Landing Pages</h3>
+          <p class="mt-4 max-w-lg text-base leading-7 text-black/75">Single-page pages built to turn attention into calls, bookings, and quote requests.</p>
+          <div class="mt-8 flex h-14 w-14 items-center justify-center rounded-full bg-white text-2xl">↗</div>
+        </div>
+
+        <div class="bg-[#E8CBF4] rounded-[44px] p-6">
+          <div class="mb-4 overflow-hidden rounded-[26px]"><img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?auto=format&fit=crop&w=900&q=80" alt="Business Websites" class="h-52 w-full object-cover"></div>
+          <div class="mb-4 inline-flex rounded-full bg-white/85 px-4 py-2 text-sm font-medium">Multi-Page</div>
+          <h3 class="max-w-sm text-3xl font-black leading-tight tracking-[-0.03em]">Business Websites</h3>
+          <p class="mt-4 max-w-lg text-base leading-7 text-black/75">Premium multi-section websites that make local businesses look established, clear, and trustworthy.</p>
+          <div class="mt-8 flex h-14 w-14 items-center justify-center rounded-full bg-white text-2xl">↗</div>
+        </div>
+
+        <div class="bg-[#C9F0D3] rounded-[44px] p-6">
+          <div class="mb-4 overflow-hidden rounded-[26px]"><img src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9?auto=format&fit=crop&w=900&q=80" alt="Website Redesigns" class="h-52 w-full object-cover"></div>
+          <div class="mb-4 inline-flex rounded-full bg-white/85 px-4 py-2 text-sm font-medium">Refresh</div>
+          <h3 class="max-w-sm text-3xl font-black leading-tight tracking-[-0.03em]">Website Redesigns</h3>
+          <p class="mt-4 max-w-lg text-base leading-7 text-black/75">We turn outdated, cluttered websites into modern pages with better structure and stronger conversion flow.</p>
+          <div class="mt-8 flex h-14 w-14 items-center justify-center rounded-full bg-white text-2xl">↗</div>
+        </div>
+
+        <div class="bg-white rounded-[44px] p-6">
+          <div class="mb-4 overflow-hidden rounded-[26px]"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="Copy + Structure" class="h-52 w-full object-cover"></div>
+          <div class="mb-4 inline-flex rounded-full bg-white/85 px-4 py-2 text-sm font-medium">Strategy</div>
+          <h3 class="max-w-sm text-3xl font-black leading-tight tracking-[-0.03em]">Copy + Structure</h3>
+          <p class="mt-4 max-w-lg text-base leading-7 text-black/75">We shape the messaging, sections, and calls-to-action so visitors instantly understand why they should choose you.</p>
+          <div class="mt-8 flex h-14 w-14 items-center justify-center rounded-full bg-[#F5F4F1] text-2xl">↗</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-[1400px] px-3 py-12 md:px-6 md:py-20">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+        <div>
+          <h2 class="text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">Why local businesses choose BRAVILON</h2>
+          <p class="mt-5 max-w-xl text-lg leading-8 text-black/70">We combine strategy, messaging, and premium design so your website does not just look better. It performs better.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+          <div class="rounded-[40px] p-7 bg-white"><div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-black text-sm font-bold text-white">01</div><h3 class="text-2xl font-black tracking-[-0.02em]">Designed to convert</h3><p class="mt-3 text-base leading-7 text-black/70">Every section is built to guide visitors toward booking, calling, or requesting a quote.</p></div>
+          <div class="rounded-[40px] p-7 bg-[#ECE9E3]"><div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-black text-sm font-bold text-white">02</div><h3 class="text-2xl font-black tracking-[-0.02em]">Built for trust</h3><p class="mt-3 text-base leading-7 text-black/70">Strong structure, clean visuals, and clear messaging make your business feel more credible fast.</p></div>
+          <div class="rounded-[40px] p-7 bg-white"><div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-black text-sm font-bold text-white">03</div><h3 class="text-2xl font-black tracking-[-0.02em]">Made for mobile</h3><p class="mt-3 text-base leading-7 text-black/70">Most local customers visit from their phone first, so we design around that reality.</p></div>
+          <div class="rounded-[40px] p-7 bg-[#ECE9E3]"><div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-black text-sm font-bold text-white">04</div><h3 class="text-2xl font-black tracking-[-0.02em]">Simple process</h3><p class="mt-3 text-base leading-7 text-black/70">No bloated agency chaos. Just fast communication, focused strategy, and premium execution.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="mx-auto max-w-[1400px] px-3 py-12 md:px-6 md:py-20">
+      <div class="mb-12">
+        <h2 class="text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">Niche-specific website examples</h2>
+        <p class="mt-4 max-w-2xl text-lg leading-8 text-black/70">These mock directions show how BRAVILON can tailor the message and design for different local business markets.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+        <!-- portfolio cards omitted here for brevity in explanation but included in page -->
+        <div class="bg-[#F4E4A6] rounded-[44px] p-6"><h3 class="text-3xl font-black">BrightSmile Dental</h3><p class="mt-3 text-base leading-7 text-black/75">A clean trust-first layout focused on new patient bookings, reviews, and service clarity.</p></div>
+        <div class="bg-[#C9F0D3] rounded-[44px] p-6"><h3 class="text-3xl font-black">IronCore Fitness</h3><p class="mt-3 text-base leading-7 text-black/75">A bold high-energy landing page designed to increase trial signups and membership inquiries.</p></div>
+        <div class="bg-[#E8CBF4] rounded-[44px] p-6"><h3 class="text-3xl font-black">Luna Beauty Studio</h3><p class="mt-3 text-base leading-7 text-black/75">An elegant service website built to showcase treatments, social proof, and easy appointment booking.</p></div>
+        <div class="bg-white rounded-[44px] p-6"><h3 class="text-3xl font-black">NorthFix Services</h3><p class="mt-3 text-base leading-7 text-black/75">A conversion-focused local service page that highlights speed, trust, pricing clarity, and quote requests.</p></div>
+      </div>
+    </section>
+
+    <section id="process" class="mx-auto max-w-[1400px] px-3 py-12 md:px-6 md:py-20">
+      <div class="mb-12">
+        <h2 class="text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">A simple process that keeps things moving</h2>
+        <p class="mt-4 max-w-2xl text-lg leading-8 text-black/70">Fast communication, clear deliverables, and no unnecessary agency complexity.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+        <div class="rounded-[32px] p-7 bg-[#C9F0D3]"><div class="text-sm font-semibold text-black/55">01</div><h3 class="mt-4 text-2xl font-black">Discovery</h3><p class="mt-3 text-base leading-7 text-black/72">We learn about your business, audience, offer, and goals.</p></div>
+        <div class="rounded-[32px] p-7 bg-[#F4E4A6]"><div class="text-sm font-semibold text-black/55">02</div><h3 class="mt-4 text-2xl font-black">Strategy</h3><p class="mt-3 text-base leading-7 text-black/72">We map the structure, messaging, and conversion path before design starts.</p></div>
+        <div class="rounded-[32px] p-7 bg-[#E8CBF4]"><div class="text-sm font-semibold text-black/55">03</div><h3 class="mt-4 text-2xl font-black">Design + Build</h3><p class="mt-3 text-base leading-7 text-black/72">We create a premium website tailored to your niche and optimized for action.</p></div>
+        <div class="rounded-[32px] p-7 bg-white"><div class="text-sm font-semibold text-black/55">04</div><h3 class="mt-4 text-2xl font-black">Launch</h3><p class="mt-3 text-base leading-7 text-black/72">You get a polished website ready to build trust and bring in more leads.</p></div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="mx-auto max-w-[1400px] px-3 py-12 md:px-6 md:py-20">
+      <div class="mb-12">
+        <h2 class="text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">What local business owners want from a website like this</h2>
+        <p class="mt-4 max-w-2xl text-lg leading-8 text-black/70">Clear positioning, a stronger first impression, and a site that helps turn traffic into customers.</p>
+      </div>
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+        <div class="rounded-[44px] p-8 bg-white"><div class="font-bold">Sofia Bennett</div><p class="mt-4 text-lg leading-8 text-black/80">We needed a website that looked more professional and actually got inquiries. This is exactly the direction we wanted.</p></div>
+        <div class="rounded-[44px] p-8 bg-[#E8CBF4]"><div class="font-bold">Marcus Hill</div><p class="mt-4 text-lg leading-8 text-black/80">The page feels premium, the message is clear, and it finally feels like our website matches the quality of our business.</p></div>
+        <div class="rounded-[44px] p-8 bg-[#F4E4A6]"><div class="font-bold">Elena Rose</div><p class="mt-4 text-lg leading-8 text-black/80">Simple, modern, and focused on getting customers to act. That is what most local businesses really need.</p></div>
+      </div>
+    </section>
+
+    <section id="faq" class="mx-auto max-w-[1400px] px-3 py-12 md:px-6 md:py-20">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+        <div>
+          <h2 class="text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">Frequently asked questions</h2>
+          <p class="mt-4 max-w-xl text-lg leading-8 text-black/70">Straight answers for business owners who want a site that looks better and performs better.</p>
+        </div>
+        <div class="space-y-4">
+          <div class="rounded-[28px] bg-white p-6"><h3 class="text-xl font-bold">Who is BRAVILON for?</h3><p class="mt-3 text-base leading-7 text-black/70">We work with local businesses that want more leads, more trust, and a better online presence.</p></div>
+          <div class="rounded-[28px] bg-white p-6"><h3 class="text-xl font-bold">Do you build only landing pages?</h3><p class="mt-3 text-base leading-7 text-black/70">No. We build both landing pages and full websites depending on the business goal.</p></div>
+          <div class="rounded-[28px] bg-white p-6"><h3 class="text-xl font-bold">Can you redesign my current website?</h3><p class="mt-3 text-base leading-7 text-black/70">Yes. We can improve the design, messaging, structure, and overall conversion flow.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="mx-auto max-w-[1400px] px-3 py-12 md:px-6 md:py-20">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+        <div>
+          <h2 class="text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">Let’s build a website that brings customers</h2>
+          <p class="mt-4 max-w-xl text-lg leading-8 text-black/70">This version includes example imagery, a real contact form action placeholder, and a booking section placeholder for your Calendly link.</p>
+        </div>
+
+        <div class="space-y-6">
+          <form action="https://formspree.io/f/your-form-id" method="POST" class="rounded-[44px] bg-white p-6 md:p-8">
+            <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+              <input name="name" type="text" placeholder="Your name" class="w-full rounded-2xl border border-black/10 bg-[#F8F8F6] px-4 py-4 outline-none">
+              <input name="business" type="text" placeholder="Your business" class="w-full rounded-2xl border border-black/10 bg-[#F8F8F6] px-4 py-4 outline-none">
+              <input name="email" type="email" placeholder="you@email.com" class="w-full rounded-2xl border border-black/10 bg-[#F8F8F6] px-4 py-4 outline-none">
+              <input name="phone" type="tel" placeholder="+1..." class="w-full rounded-2xl border border-black/10 bg-[#F8F8F6] px-4 py-4 outline-none">
+            </div>
+            <input name="need" type="text" placeholder="Landing page, redesign, full website..." class="mt-5 w-full rounded-2xl border border-black/10 bg-[#F8F8F6] px-4 py-4 outline-none">
+            <textarea name="message" rows="6" placeholder="Tell us about your business and what result you want..." class="mt-5 w-full rounded-2xl border border-black/10 bg-[#F8F8F6] px-4 py-4 outline-none"></textarea>
+            <button type="submit" class="mt-6 rounded-full bg-black px-7 py-4 text-base font-semibold text-white">Request a Quote</button>
+          </form>
+
+          <div class="rounded-[44px] bg-[#E8CBF4] p-6 md:p-8">
+            <div class="mb-3 inline-flex rounded-full bg-white/80 px-4 py-2 text-sm font-medium">Calendly booking link</div>
+            <h3 class="text-2xl font-black">Book a strategy call</h3>
+            <p class="mt-3 max-w-xl text-base leading-7 text-black/75">Replace this with your Calendly link.</p>
+            <a id="calendlyLink" target="_blank" rel="noreferrer" class="mt-5 block overflow-hidden rounded-[28px] bg-white p-3 transition hover:opacity-90">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" alt="Online meeting booking example" class="h-56 w-full rounded-[22px] object-cover">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-black/5">
+    <div class="mx-auto grid max-w-[1400px] grid-cols-1 gap-10 px-3 py-10 md:px-6 lg:grid-cols-[1fr_auto_auto] lg:items-center">
+      <div>
+        <div class="text-2xl font-black tracking-tight">BRAVILON</div>
+        <p class="mt-3 max-w-md text-sm leading-7 text-black/60">We build landing pages and website that convert visitors into buyers.</p>
+      </div>
+      <div class="flex flex-wrap gap-5 text-sm font-medium text-black/70">
+        <a href="#services" class="hover:text-black">Services</a>
+        <a href="#portfolio" class="hover:text-black">Portfolio</a>
+        <a href="#process" class="hover:text-black">Process</a>
+        <a href="#faq" class="hover:text-black">FAQ</a>
+        <a href="#contact" class="hover:text-black">Contact</a>
+      </div>
+      <a href="#contact" class="inline-block rounded-full bg-black px-6 py-3 text-sm font-semibold text-white">Book a Call</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('heroImage1').src = `${CUSTOM.heroImage1}?auto=format&fit=crop&w=1200&q=80`;
+    document.getElementById('heroImage2').src = `${CUSTOM.heroImage2}?auto=format&fit=crop&w=1200&q=80`;
+    document.getElementById('calendlyLink').href = CUSTOM.calendlyLink;
+  </script>
+</body>
+</html>
